@@ -69,8 +69,6 @@ class Block(nn.Module):
       return x
 
 
-        
-        
 class ResNet(nn.Module):
     def __init__(self, ResBlock, layer_list, num_classes, num_channels=3):
         super(ResNet, self).__init__()
